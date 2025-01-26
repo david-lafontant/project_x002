@@ -17,7 +17,7 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
-gem "stringio" , "~> 3.1.2"
+gem "stringio", "~> 3.1.2"
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
@@ -52,12 +52,11 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 
   # rspec-rails and factory_bot_rails for testing
-  gem 'rspec-rails', '~> 7.1'
-  gem 'factory_bot_rails'
+  gem "rspec-rails", "~> 7.1"
+  gem "factory_bot_rails"
 end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 end
-
