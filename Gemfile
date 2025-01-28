@@ -63,4 +63,4 @@ end
 
 gem "dartsass-rails"
 gem "bootstrap", "~> 5.3.3"
-gem 'popper_js', '~> 2.11.8'
+gem "popper_js", "~> 2.11.8"
