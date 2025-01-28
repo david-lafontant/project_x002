@@ -22,7 +22,9 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
+  <body class="bg-body-tertiary" >
+  <%= render "shared/navigation" %>
     <%= yield %>
+  <%= render "shared/footer" %>
   </body>
 </html>

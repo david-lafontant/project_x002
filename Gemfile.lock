@@ -409,6 +409,7 @@ DEPENDENCIES
   jbuilder
   kamal
   pg (~> 1.1)
+  popper_js (~> 2.11.8)
   propshaft
   puma (>= 5.0)
   rails (~> 8.0.1)
