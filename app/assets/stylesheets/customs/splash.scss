@@ -1,0 +1,35 @@
+body:has(.splash) {
+  // background-image: url(citadelle_2.jpg);
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // padding-top: 0 !important;
+
+  .splash {
+    // parallax
+    background-image: url(citadelle_2.jpg);
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .navbar-dark {
+    // navigation glassmorphism
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .azul {
+    color: oldlace;
+  }
+
+  .scrolled {
+    background-color: #001540;
+  }
+}
