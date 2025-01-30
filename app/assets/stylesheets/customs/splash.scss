@@ -3,7 +3,7 @@ body:has(.splash) {
   // background-position: center;
   // background-repeat: no-repeat;
   // background-size: cover;
-  padding-top: 0 !important;
+  // padding-top: 0 !important;
 
   .splash {
     // parallax
@@ -24,12 +24,12 @@ body:has(.splash) {
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
 
-    a {
-      color: #001540;
-    }
   }
 
   .azul {
     color: oldlace;
+  }
+  .scrolled {
+    background-color: #001540;
   }
 }
